@@ -5,6 +5,7 @@ Flower[] bubs = new Flower[200];
 public void setup() 
 {   
   size(640,480);  
+  frameRate(10);
   for(int i = 0; i < bubs.length; i++){
     bubs[i] = new Flower((int)(Math.random()*530)+55, (int)(Math.random()*100)+100);
   }
